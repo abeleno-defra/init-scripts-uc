@@ -1,5 +1,5 @@
 #!/bin/bash
-RAW_FILE="/dbfs/databricks/scripts/cscrootcert.crt"
+RAW_FILE="/Volumes/prd_dash_config/common/init_scripts/src/cscrootcert.crt"
 BUNDLE_FILE="/usr/local/share/ca-certificates/myca.crt"
 
 cp $RAW_FILE $BUNDLE_FILE
